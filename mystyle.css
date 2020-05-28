@@ -1,0 +1,244 @@
+
+br, hr {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+    border-top: 0.07rem solid;
+}
+
+sss {
+    box-sizing: border-box;
+}
+
+#my_header {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    margin: 0;
+    max-width: none;
+    position: relative;
+}
+
+#header_background{
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("background-1.jpg"); 
+    width: 100%;
+    height: 100%;
+    opacity : 0.85;
+    z-index: -1;
+}
+
+#main_header_tab {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    color: gold
+}
+
+a.header_link:link, a.header_link:visited {
+    text-decoration: gray;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+}
+a.header_link:active, a.header_link:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+
+#Hi {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 100px 20px 40px 20px;
+}
+
+@media (min-width: 768px){ 
+    #Hi {
+        font-size: 2.5rem;
+    }
+}
+
+#profile_photo {
+    text-align: center;
+    padding: 40px 20px 80px 20px;
+}
+
+#short_bio {
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: "Helvetica Nueue", Helvetica, sans-serif;
+    color:rgb(68, 66, 66);
+    font-size: 18px;
+    text-align: left;
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+}
+
+@media (max-width: 768px){ 
+    #short_bio {
+        font-size: 15px;
+    }
+}
+
+#box {
+    text-align: center;
+    display: block;
+}
+#content {
+    background-color: blanchedalmond;
+    padding: 40px;
+    border: solid 20px;
+    border-color: cadetblue;
+    color: palevioletred;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    display: inline-block;
+}
+
+@media (max-width: 768px){ 
+    #content {
+        font-size: 15px;
+    }
+}
+
+#heading {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 2rem;
+    text-align: left;
+    padding: 20px 10px 20px 10px;
+}
+
+#smallheading {
+    font-family: "Helvetica Nueue", Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    padding: 0px 20px 0px 20px;
+}
+
+@media (max-width: 768px){ 
+    #smallheading {
+        font-size: 15px;
+    }
+}
+
+#maincontent{
+    font-family: "Helvetica Nueue", Helvetica, sans-serif;
+    color:rgb(48, 47, 47);
+    font-size: 18px;
+    text-align: left;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+@media (max-width: 768px){ 
+    #maincontent {
+        font-size: 15px;
+    }
+}
+
+#bardivide {
+    content : "";
+    display: block;
+    background:url("./background-1.jpg"); 
+    width: 100%;
+    height: 100%;
+    opacity : 0.8;
+    z-index: 1;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    max-width: none;
+    position: relative;
+}
+
+#honor_years {
+    width: 200px;
+    padding-right: 50px;
+}
+
+#caption {
+    font-family: "Helvetica Nueue", Helvetica, sans-serif;
+    color: rgb(138, 152, 165);
+    font-size: 15px;
+    text-align: center;
+    display: inline-block;
+    /*padding: 40px 20px 20px 20px;*/
+}
+
+#copyright {
+    font-family: "Helvetica Nueue", Helvetica, sans-serif;
+    font-size: 0.7rem;
+    text-align: right;
+    padding: 10px 10px 10px 10px;
+    color: rgb(200, 200, 200);
+}
+
+#myfooter {
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+    max-width: none;
+    position: relative;
+    background-image: url("background-1.jpg"); 
+    opacity : 0.8;
+}
+
+#back_to_top {
+    font-family: "Helvetica Nueue", Helvetica, sans-serif;
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+    color: rgb(0, 0, 0);
+}
+
+
+a.paper_href:link, a.paper_href:visited {
+    text-decoration: gray;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+a.paper_href:active, a.paper_href:hover {
+    color: gold;
+    text-decoration: underline;
+}
+
+.body_bg {
+    background-color: rgb(231, 231, 231);
+    color: aliceblue;
+}
+
+#content_bg {
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 36, 36);
+}
+
+#photo {
+    padding: 1%;
+}
+
+
+#photo_title {
+    font-family: Optima, sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 80px 20px 10px 20px;
+    color: rgb(31, 31, 31);
+}
+
+#photo_comment {
+    font-family: Optima, sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 5px 0px 10px 0px;
+    color: rgb(31, 31, 31);
+}
+
+
+
+
+
+
