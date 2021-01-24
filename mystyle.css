@@ -47,6 +47,16 @@ a.header_link:active, a.header_link:hover {
     text-decoration: none;
 }
 
+a.header_link_1:link, a.header_link_1:visited {
+    text-decoration: gray;
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+}
+a.header_link_1:active, a.header_link_1:hover {
+    color:coral;
+    text-decoration: none;
+}
+
 
 #Hi {
     font-family: Verdana, Geneva, sans-serif;
