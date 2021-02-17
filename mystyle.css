@@ -121,17 +121,34 @@ a.header_link_1:active, a.header_link_1:hover {
     padding: 20px 10px 20px 10px;
 }
 
-#smallheading {
-    font-family: "Helvetica Nueue", Helvetica, sans-serif;
-    font-size: 18px;
+#firstsmallheading {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.5rem;
     text-align: left;
-    padding: 0px 20px 0px 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+#smallheading {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 40px 10px 10px 10px;
 }
 
 @media (max-width: 768px){ 
     #smallheading {
         font-size: 15px;
     }
+}
+
+#paperlist{
+    font-family: "Helvetica Nueue", Helvetica, sans-serif;
+    color:rgb(48, 47, 47);
+    font-size: 18px;
+    text-align: left;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    
 }
 
 #maincontent{
